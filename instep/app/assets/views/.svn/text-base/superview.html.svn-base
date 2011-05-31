@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>InStep</title>
+		<link href="{include-url}presentation/styles/main.css" media="screen" rel="stylesheet" type="text/css" /> 
+		<link href="{include-url}presentation/styles/ui-lightness/jquery-ui-1.8.5.custom.css" media="screen" rel="stylesheet" type="text/css" /> 
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
+		<script type="text/javascript" src="{include-url}presentation/scripts/instep.js"></script>
+		<script type="text/javascript" src="{include-url}presentation/scripts/jquery-ui-1.8.5.custom.min.js"></script>
+		<script type="text/javascript" src="{include-url}presentation/scripts/cornerz.js"></script>
+		<script type="text/javascript" src="{include-url}presentation/scripts/jquery.qtip-1.0.min.js"></script>
+		<script type="text/javascript">
+			InStep.baseURL = "{base-url}";
+			InStep.includeURL = "{include-url}";
+		</script>
+		{additional-assets}
+	</head>
+	<body>
+			<div id="headerContainer">
+				<div id="headerNav">
+					<a href="{base-url}"><img src="{include-url}presentation/images/logo.png" alt="InStep Logo" border="0" /></a>
+					<a href="{base-url}home" class="navbutton homenav{navclass-home}">Home</a>
+					<a href="{base-url}review" class="navbutton reviewnav{navclass-review}">Review</a>
+					<a href="{base-url}compare" class="navbutton comparenav{navclass-compare}">Compare</a>
+					<div id="infoHolder" class="ralign">
+						<div id="userInfoContainer">{userName}</div>
+						<a href="{base-url}manage/user" class="navbutton logoutnav ralign"></a>
+					</div>
+				</div>
+			</div>
+			<div id="wrapper">
+				<div id="contentArea">
+				{viewport}
+				</div>
+			</div>
+			<div id="footer">&copy; 2011</div>
+	</body>
+</html>

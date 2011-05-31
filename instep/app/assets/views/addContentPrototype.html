@@ -1,0 +1,78 @@
+<h1>Add Content</h1>
+
+<div id="addContentContainer">
+	<div class="video" id="leftPlayer">	
+	</div>
+	<div class="metadata">
+		<table>
+			<tr>
+				<td width="30%">Title</td>
+				<td><input type="text" name="title" size="55" /></td>
+			</tr>
+			<tr>
+				<td width="30%">Learner</td>
+				<td>
+					<select>
+					  <option value="tom">Tom</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td width="30%">Tutor / other staff</td>
+				<td>
+					<select>
+					  <option value="admin">Admin</option>
+					</select>				
+				</td>
+			</tr>
+			<tr>
+				<td width="30%">Date</td>
+				<td>1st August 2009</td>
+			</tr>
+			<tr>
+				<td>Activity</td>
+				<td><input type="text" name="activity" size="55" /></td>
+			</tr>
+			<tr>
+				<td>Domain</td>
+				<td>
+					<div class="domains">
+						<a href="#" class="selected psychomotor">Psychomotor</a>
+						<a href="#" class="cognitive">Cognitive</a>
+						<a href="#" class="affective">Affective</a>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Level</td>
+				<td>
+					<div class="levelBar center">
+						<a href="#" id="level1" class="selected">1</a>
+						<a href="#" id="level2">2</a>
+						<a href="#" id="level3">3</a>
+						<a href="#" id="level4">4</a>
+						<a href="#" id="level5">5</a>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Tags</td>
+				<td>
+					<div id="tagContainer"></div>
+					
+					<div id="addNewTags">
+						<input type="text" name="newTag" id="newTag" placeholder="Add a new tag..." size="15" />
+						<a href="#"><img src="{include-url}presentation/images/add-tag.png" alt="Add a new tag" /></a>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Notes</td>
+				<td><textarea rows="10" cols="50" placeholder="Enter notes here..."></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button>Add</button></td>
+			</tr>
+		</table>
+	</div>
+</div>

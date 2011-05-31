@@ -1,0 +1,16 @@
+<form action="{base-url}manage/act" method="post">
+	<table align="center">
+		<tr>
+			<td><label for="username">Username:</label></td>
+			<td><input type="text" name="username" /></td>
+		</tr>
+		<tr>
+			<td><label for="password">Password:</label></td>
+			<td><input type="password" name="password" /></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button type="submit">Submit</button></td>
+		</tr>
+	</table>
+	
+</form>

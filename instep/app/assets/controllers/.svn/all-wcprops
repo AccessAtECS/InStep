@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/instep/!svn/ver/73/trunk/src/instep/app/assets/controllers
+END
+compare.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/instep/!svn/ver/78/trunk/src/instep/app/assets/controllers/compare.class.php
+END
+home.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/instep/!svn/ver/63/trunk/src/instep/app/assets/controllers/home.class.php
+END
+manage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/instep/!svn/ver/36/trunk/src/instep/app/assets/controllers/manage.class.php
+END
+view.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/instep/!svn/ver/17/trunk/src/instep/app/assets/controllers/view.class.php
+END
+import.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/instep/!svn/ver/48/trunk/src/instep/app/assets/controllers/import.class.php
+END
+assetSelector.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/instep/!svn/ver/17/trunk/src/instep/app/assets/controllers/assetSelector.class.php
+END
+review.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/instep/!svn/ver/79/trunk/src/instep/app/assets/controllers/review.class.php
+END
+upload.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/instep/!svn/ver/14/trunk/src/instep/app/assets/controllers/upload.class.php
+END

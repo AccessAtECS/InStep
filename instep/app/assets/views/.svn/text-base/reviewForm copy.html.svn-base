@@ -1,0 +1,91 @@
+<div id="addContentContainer">
+	<div class="metadata">
+		<form class="reviewForm" id="reviewForm-{reviewFormId}" onsubmit='return false'>
+			<h2>{title}</h2>
+			<h3>{date}</h3>
+			<div class="video" id="player-{reviewFormId}">	
+			</div>
+			<div class="vidControls">
+				<button>></button>
+				<button><<</button>
+				<button>||</button>
+				<button>[ ]</button>
+				<button>+</button>
+				<button>-</button>
+				<button>X</button>		
+			</div>
+
+			<input type="hidden" name="review-asset_id" id="review-asset_id" value="{asset_id}" />
+			<table>
+				<tr>
+					<td width="30%">Learner</td>
+					<td>
+						<select>
+						  <option value="tom">Tom</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td width="30%">Tutor / other staff</td>
+					<td>
+						<select>
+						  <option value="admin">Admin</option>
+						</select>				
+					</td>
+				</tr>
+				<tr>
+					<td>Activity</td>
+					<td><input type="text" name="activity" class='review-activity' size="55" value='{activity}'/></td>
+				</tr>
+				<tr>
+					<td>Domain</td>
+					<td>
+						<div class="domains">
+							<a href="#" class="{domainPsychomotor}psychomotor">Psychomotor</a>
+							<a href="#" class="{domainCognitive}cognitive">Cognitive</a>
+							<a href="#" class="{domainAffective}affective">Affective</a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Level</td>
+					<td>
+						<div class="levelBar center">
+							<a href="#" id="level1" class="{levelBar1}">1</a>
+							<a href="#" id="level2" class="{levelBar2}">2</a>
+							<a href="#" id="level3" class="{levelBar3}">3</a>
+							<a href="#" id="level4" class="{levelBar4}">4</a>
+							<a href="#" id="level5" class="{levelBar5}">5</a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Tags</td>
+					<td>
+						<div id="tagContainer"></div>
+						
+						<div id="addNewTags">
+							<input type="text" name="newTag" id="newTag" placeholder="Add a new tag..." size="15" />
+							<a href="#"><img src="{include-url}presentation/images/add-tag.png" alt="Add a new tag" /></a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Notes</td>
+					<td><textarea rows="10" cols="50" placeholder="Enter notes here..." id='review-notes'>{notes}</textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button id='review-add'>Add</button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+<script type='text/javascript'>
+	var so{reviewFormId} = new SWFObject('{include-url}/presentation/flash/player.swf','mpl','400','200','9');
+	so{reviewFormId}.addParam('allowfullscreen','true');
+	so{reviewFormId}.addParam('allowscriptaccess','always');
+	so{reviewFormId}.addParam('wmode','opaque');
+	so{reviewFormId}.addVariable('file','{include-url}assets/{href}');
+	so{reviewFormId}.write('player-{reviewFormId}');
+</script>

@@ -1,0 +1,26 @@
+<h1>Search for InStep content to compare</h1>
+
+<form>
+	<table align="center">
+		<tr>
+			<td><label for="learner">Learner:</label></td>
+			<td><select name="learner" id="learner">
+				{userList}
+			</select></td>
+		</tr>
+		<tr>
+			<td><label for="activity">Activity:</label></td>
+			<td><input name="activity" id="activity" type="text" /></td>
+		</tr>
+		<tr>
+			<td><label for="date">Date:</label></td>
+			<td><input name="date" id="date" type="text" /></td>
+		</tr>	
+		<tr>
+			<td colspan="2"><input type="submit" value="Search" /></td>
+		</tr>
+	</table>
+</form>
+<br />
+<br />
+<h2>... or alternatively, <a href="compare/view">view an existing comparison</a></h2>
