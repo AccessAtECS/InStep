@@ -1,8 +1,0 @@
-<div id="compareContainer">
-	<div id="leftvid" class="vidContainer">{form1}</div>
-	<div id="rightvid" class="vidContainer">{form2}</div>
-	
-	<p style="text-align:center; clear:both">
-		{notes}
-	</p>
-</div>

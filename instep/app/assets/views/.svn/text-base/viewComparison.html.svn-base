@@ -1,8 +1,0 @@
-<h1>Viewing comparison{learner}</h1>
-
-{comparison}
-<!--NONARCHIVE-->	
-<p style="text-align:center; clear:both">
-	<input type="button" value="Download as Archive" onclick="window.location=window.location.toString()+'/archive'" />
-</p>
-<!--/NONARCHIVE-->	

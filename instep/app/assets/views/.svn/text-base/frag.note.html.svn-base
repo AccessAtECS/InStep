@@ -1,5 +1,0 @@
-<div class="note">
-	<input type="hidden" name="id" value="{id}" />
-	<div class="noteBody">{note}</div>
-	<div class="smallinfo"><span class="by">Made by {user}</span> <span class="time">at {time}</span> <span class="edit">{edit}</span></div>
-</div>

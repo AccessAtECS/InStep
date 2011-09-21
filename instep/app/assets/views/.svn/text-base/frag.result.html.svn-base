@@ -1,8 +1,0 @@
-	<div class="smallCompare">
-		<input type="hidden" id="{id}-id" name="id" value="{id}" />
-		<img src="{include-url}presentation/images/blueprint.png" alt="Activity" /> <span class="title">{Title}</span><br />
-		<span class="description">{Description}</span><br />
-		{thumbnail}<br />
-		<img src="{include-url}presentation/images/user-silhouette.png" alt="User Icon" /> <span class="learner">Uploaded by {User}</span><br />
-		<img src="{include-url}presentation/images/calendar-select.png" alt="Date" /> <span class="date">{Date}</span>
-	</div>
