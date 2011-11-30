@@ -65,6 +65,7 @@ Open ```admin/bo.php``` and go to the bottom of the file. Just **after** the ```
 ```
 
 Open ```collection.php``` in the root InFolio folder. Add **before** the ```</body>``` tag:
+
 ```
 <? if(INSTEP_ENABLED) print("<script type=\"text/javascript\" src=\"/instep/presentation/scripts/import.js\"></script> "); ?>
 ```
